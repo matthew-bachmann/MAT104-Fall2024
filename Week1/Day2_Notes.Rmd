@@ -1,4 +1,4 @@
-_---
+---
 title: "Day 2 Notes: RStudio and Jupyter"
 output:
   html_document:
