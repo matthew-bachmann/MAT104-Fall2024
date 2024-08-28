@@ -1,0 +1,41 @@
+---
+title: "Class Activity 1"
+output:
+  pdf_document:
+    toc: yes
+  html_document:
+    css: ./style.css
+    toc: no
+    toc_float: yes
+    theme: cosmo
+editor_options:
+  chunk_output_type: console
+---
+  
+```{r global_options, include = FALSE}
+library(knitr)
+knitr::opts_chunk$set(eval = TRUE, results = TRUE)
+```
+
+When you are finished with the assignment, "knit" (above this in the middle) to pdf and submit to gradescope (the course code is: RKX44J)
+
+1. In the space below create a variable called that saves the value 15 to a variable called `a`.
+
+```{r}
+# delete this and instead write your answer here
+```
+
+2. Create a new code chunk below and type code that will find raise `a` to the 10th power.
+
+
+
+3. Now review the code chunk below. It lists the calories for the meals I ate yesterday and then adds up my calories for the day. In the empty code chunk write code that will save a list called `scores` with the values `25,65,33` and find the sum of those values. 
+
+```{r}
+calories <- c(550,920,1000)
+sum(calories)
+```
+
+```{r}
+# delete this and instead write your answer here
+```
