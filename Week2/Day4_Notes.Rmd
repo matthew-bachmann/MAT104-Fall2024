@@ -1,0 +1,31 @@
+---
+title: "Day 4 Notes: Quantiles and Boxplots"
+output:
+  html_document:
+    css: ./style.css
+    toc: yes
+    toc_float: yes
+    theme: cosmo
+  pdf_document:
+    toc: yes
+editor_options:
+  chunk_output_type: console
+---
+  
+```{r global_options, include = FALSE}
+library(knitr)
+knitr::opts_chunk$set(eval = TRUE, results = TRUE)
+```
+
+---
+  
+## Today's Agenda
+- Quantiles
+- Logic Operators
+
+---
+
+
+## Quantiles
+
+## Logic Operators
