@@ -1,0 +1,74 @@
+---
+title: "Class Activity 3"
+output:
+  html_document:
+    css: ./style.css
+    toc: no
+    toc_float: yes
+    theme: cosmo
+  pdf_document:
+    toc: yes
+editor_options:
+  chunk_output_type: console
+---
+  
+```{r global_options, include = FALSE}
+library(knitr)
+knitr::opts_chunk$set(eval = TRUE, results = TRUE)
+```
+
+
+
+1. Load the `openintro` package locally using the `library()` function. (You *may* need to install the package first)
+
+```{r}
+# code to load the package
+
+```
+
+2. Inside this package is a dataset called `yrbss` full of data about high school students. Choose a an appropriate name and save this data frame to your local environment.
+
+```{r}
+# saving data frame to environment
+
+```
+
+3. Choose an appropriate name to save the height column from the `yrbss` data to your local environment and remove all missing values.
+
+```{r}
+# remove missing values from height and saving it to environment
+
+```
+
+
+
+4. Find the 25th, 50th, 75th percentiles for the height data
+
+```{r}
+# finding quartiles for the data
+
+```
+
+5. Now use a logic operator to save all data points with a height less than or equal to $1.60$ to your local environment. 
+
+```{r}
+# saving heights less than or equal to 1.60
+
+```
+
+6. Divide the number of data points with height less than or eual to 1.60 by the total number of data points to verify that it is approximately 25%.
+
+```{r}
+# verify 25th percentile
+
+```
+
+
+7. Finally, plot a boxplot by using the function `boxplot( height)`. Approximately how tall/short does a student need to be to be considered an outlier?
+
+```{r}
+# code for boxplot
+
+```
+
+Type your answer here
