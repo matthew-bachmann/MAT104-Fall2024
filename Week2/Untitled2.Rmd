@@ -1,0 +1,65 @@
+---
+title: "Day 5 Notes: Cental Measures, Histograms, and Boxplots"
+output:
+  html_document:
+    css: ./style.css
+    toc: yes
+    toc_float: yes
+    theme: cosmo
+  pdf_document:
+    toc: yes
+editor_options:
+  chunk_output_type: console
+---
+  
+```{r global_options, include = FALSE}
+library(knitr)
+library(tidyverse)
+knitr::opts_chunk$set(eval = TRUE, results = TRUE)
+```
+
+---
+  
+## Today's Agenda
+- Measures of Centrality
+- Skewness
+- Graphs
+
+---
+
+```{r}
+# loading palmer penguin data
+library(palmerpenguins)
+```
+
+## Measure of Centrality
+
+
+### Skewness
+
+#### Below are several distributions, each showsthe mean in blue and the median in red.
+
++ A **symmetric** distribution looks like:
+
+```{r, echo = FALSE}
+df1 <- data.frame(x=rbeta(50000,5,5))
+ggplot(df1,aes(x=x))+geom_histogram(binwidth = .025) + geom_vline(aes(xintercept = mean(x)),color="red") + geom_vline(aes(xintercept = median(x)),color="blue") + theme_void()
+```
+
++ A **right** skew in a distribution looks like:
+
+```{r, echo = FALSE}
+df2 <- data.frame(x=rbeta(50000,2,5))
+ggplot(df2,aes(x=x))+geom_histogram(binwidth = .025) + geom_vline(aes(xintercept = mean(x)),color="red") + geom_vline(aes(xintercept = median(x)),color="blue") + theme_void()
+```
+
++ A **left** skew in a distribution looks like:
+
+```{r, echo = FALSE}
+df1 <- data.frame(x=rbeta(50000,5,2))
+ggplot(df1,aes(x=x))+geom_histogram(binwidth = .025) + geom_vline(aes(xintercept = mean(x)),color="red") + geom_vline(aes(xintercept = median(x)),color="blue")+theme_void()
+```
+
+
+## Graphs 
+
