@@ -1,0 +1,57 @@
+---
+title: "Class Activity 7"
+output:
+  html_document:
+    css: ./style.css
+    toc: no
+    toc_float: yes
+    theme: cosmo
+  pdf_document:
+    toc: yes
+editor_options:
+  chunk_output_type: console
+---
+  
+```{r global_options, include = FALSE}
+library(knitr)
+knitr::opts_chunk$set(eval = TRUE, results = TRUE)
+```
+
+
+1. Plot the probability distribution described by a loaded six-sided die that is twice as likely to land on $6$ than any other value (all other values have equal probability).
+
+```{r}
+# finding quartiles for the data
+
+```
+
+2. Find the expected value of the die roll from above.
+
+```{r}
+# finding quartiles for the data
+
+```
+
+3. A portfolio’s value increases by $16 \%$ during a financial boom and by $8 \%$ during normal times. It decreases by $12 \%$ during a recession. What is the expected percent return on this portfolio if each scenario is equally likely?
+
+```{r}
+# code to compute expected return
+
+```
+
+4. What is the standard deviation of the expected return?
+
+```{r}
+# saving data frame to environment
+
+```
+
+5. Consider the following card game with a well-shuffled deck of cards. If you draw a red card ($26/52$ cards are red), you win nothing. If you draw a spade ($13/52$ cards are spades), you win $\$5$. For any club ($13/52$ cards are clubs), you win $\$10$ plus an extra $\$20$ for the ace of clubs. (A) Find the expected winnings for a single game and the standard deviation of the winnings. (B) If it costs $\$6$ to play the game, is it in your benefit to play?
+
+```{r}
+# (a) code to find the expected winnings
+
+# (b) Should you play the game?
+
+```
+
