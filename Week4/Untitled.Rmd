@@ -1,0 +1,62 @@
+---
+title: "Day 11 Notes: Expected Value"
+output:
+  html_document:
+    css: ./style.css
+    toc: yes
+    toc_float: yes
+    theme: cosmo
+  pdf_document:
+    toc: yes
+editor_options:
+  chunk_output_type: console
+---
+  
+```{r global_options, include = FALSE}
+library(knitr)
+library(tidyverse)
+knitr::opts_chunk$set(eval = TRUE, results = TRUE)
+```
+
+---
+  
+## Today's Agenda
+- Random Variables
+- Expected Value
+- Uniform Distribution
+
+---
+
+## Random Variable
+
+$$P(X=0) = .20, \ P(X=137) = .55, \ P(X=170) = .25$$
+
+
+## Expected Value
+
+The expected value of a random variable is:
+
+$$E(X) = x_1 \times P(X=x_1) + \dots + x_k \times P(X=x_k) = \sum_{i=1}^k x_i P(X = x_i)$$
+
+and the standard deviation of the expected value of the random variable is 
+
+$$\sqrt{\sum_{i=1}^k (x_i-E(X))^2 P(X = x_i)}$$
+
+If all the probabilities are the same, then 
+$$E(X) = x_1 \times \frac{1}{k} + \dots + \frac{1}{k} \times P(X=x_k) = \frac{\sum_{i=1}^k x_i}{k} = \bar{x}$$
+
+this is just the mean.
+
+eg. The expected price of a text book is
+
+```{r}
+
+```
+
+```{r}
+# find the standard deviation of the price
+
+```
+
+## Unifrom Distribution
+
