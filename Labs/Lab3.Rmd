@@ -35,7 +35,7 @@ For this lab our population will be the data set of all $50000$ diamonds. We wil
 2. How many diamonds are represented in the data set?
 
 
-3. Plot a histogram of the price of the diamonds with a bin width of $500$.
+3. Plot a histogram of the price of the diamonds with $35$ breaks.
 
 ```{r}
 # insert code here
