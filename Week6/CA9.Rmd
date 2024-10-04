@@ -1,0 +1,49 @@
+---
+title: "Class Activity 9"
+output:
+  pdf_document:
+    toc: yes
+  html_document:
+    css: ./style.css
+    toc: no
+    toc_float: yes
+    theme: cosmo
+editor_options:
+  chunk_output_type: console
+---
+  
+```{r global_options, include = FALSE}
+library(knitr)
+knitr::opts_chunk$set(eval = TRUE, results = TRUE)
+```
+
+
+1. Suppose a population unkown population mean and population standard deviation $2.5$. A sample of $450$ observations has a sample mean of $\bar{x}=62$. Find a $95 \%$ confidence interval.
+
+```{r}
+
+```
+
+2. What are the $z$-scores corresponding to a $70 \%$ confidence level?
+
+```{r}
+
+```
+
+3. Suppose average pizza delivery times are normally distributed with an unknown population mean and a population standard deviation of six minutes. A random sample of $28$ pizza delivery restaurants is taken and has a sample mean delivery time of $36$ minutes. Find a $90 \%$ confidence interval for the population mean delivery time.
+
+```{r}
+
+```
+
+4. From a population with population mean $16$ and standard deviation $2$ a sample of $35$ observations is taken. Provide an interval such that there is an $80 %$ chance that the sample mean falls within the range.
+
+```{r}
+
+```
+
+5. Suppose scores on exams in statistics are normally distributed with an unknown population mean and a population standard deviation of $3$ points. A random sample of $36$ scores is taken with an mean score of $72$. Find a $98 \%$ confidence interval for the mean exam score of the population.
+
+```{r}
+
+```
