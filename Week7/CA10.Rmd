@@ -1,0 +1,47 @@
+---
+title: "Class Activity 10"
+output:
+  html_document:
+    css: ./style.css
+    toc: no
+    toc_float: yes
+    theme: cosmo
+  pdf_document:
+    toc: yes
+editor_options:
+  chunk_output_type: console
+---
+  
+```{r global_options, include = FALSE}
+library(knitr)
+knitr::opts_chunk$set(eval = TRUE, results = TRUE)
+```
+
+
+1. Consider a population that is approximately normally distributed with unknown population mean and unknown population standard deviation. A sample of $450$ observations has a sample mean of $\bar{x}=62$ and standard deviation of $52$. Find a $95 \%$ confidence interval for the population mean. (Interpret your answer within the context of the problem, use complete sentences)
+
+```{r}
+
+```
+
+2. Suppose average pizza delivery times are normally distributed with an unknown population mean. A random sample of $28$ pizza delivery restaurants is taken and has a sample mean delivery time of $36$ minutes with standard deviation of $6$ minutes. Find a $90 \%$ confidence interval for the population mean delivery time. (Interpret your answer within the context of the problem, use complete sentences)
+
+```{r}
+
+```
+
+3. To find the $t$-scores corresponding to a $70 \%$ confidence level, what additional information do you need to know?
+
+
+
+4. Provide a range of $t$-scores that captures $80 \%$ of all $t$-scores 
+
+```{r}
+
+```
+
+5. Suppose scores on exams in statistics are normally distributed with an unknown population mean and a population standard deviation. A random sample of $36$ scores is taken with an mean score of $72$ and standard deviation of $10$. Find a $98 \%$ confidence interval for the mean exam score of the population. (Interpret your answer within the context of the problem, use complete sentences)
+
+```{r}
+
+```
