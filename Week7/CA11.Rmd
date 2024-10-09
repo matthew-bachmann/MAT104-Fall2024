@@ -1,0 +1,58 @@
+---
+title: "Class Activity 11"
+output:
+  html_document:
+    css: ./style.css
+    toc: no
+    toc_float: yes
+    theme: cosmo
+  pdf_document:
+    toc: yes
+editor_options:
+  chunk_output_type: console
+---
+  
+```{r global_options, include = FALSE}
+library(knitr)
+knitr::opts_chunk$set(eval = TRUE, results = TRUE)
+```
+
+
+1. A study is conducted to analyze internet privacy for teens. A group of $50$ teens is randomly sampled and $47$ report clicking on links from unknown email addresses. Construct a $90 \%$ confidence interval for the true proportion of teens that click on links from unknown email addresses or explain what conditions prevent you from applying our methods.
+
+```{r}
+
+```
+
+2. A study is conducted to analyze internet privacy for teens. A group of $50$ teens is randomly sampled and $17$ report clicking on links from unknown email addresses. Construct a $90 \%$ confidence interval for the true proportion of teens that click on links from unknown email addresses or explain what conditions prevent you from applying our methods.
+
+```{r}
+
+```
+
+
+3. Politcal experts claim that only $35 \%$ of registered voters vote in local elections. A recent political poll (assume they are using methods that ensure independence) asks $1000$ registered voters if they plan to vote in their next local election. The poll finds that $840$ registered voters will vote in the next election. 
+
+3a. What is the standard error for the sampling distribution of the sample proportion?
+
+```{r}
+
+```
+
+3b. Construct a $95 \%$ confidence interval for the true population proportion.
+
+```{r}
+
+```
+
+3c. Does your answer to the previous part support or challenge the claim of the political experts? Explain your reasoning by making reference to the confidence interval.
+
+
+4. The error bound for the proportion $EBP$ is calculated by $EBP = z_{\alpha/2}\cdot SE = z_{\alpha/2}\cdot \sqrt{p(1-p)/n}$. Will the $EBP$ be bigger when $p=0.2$ or $p=0.4$? You don't need to know the sample size or confidence level to answer this.
+
+
+5. For what value of $p$ is the $EBP$ as big as possible?
+
+6. Suppose you want to estimate the proportion of registered voters that will vote in a local election. Before doing any polling you set the goal to make sure that that you estimate a range of values that has an $EBP$ for less than $3 %$ with $95 \%$ confidence. That is, you want to say "We are $95 \%$ confident that the true proporion of people that will vote in a local election is between $ \hat{p}-3 \%$ and $ \hat{p}+3 \%$". Determine how big your sample size should be to guarantee this?
+
+7. A university newspaper is conducting a survey to determine what fraction of students support a $ \$ 200$ per year increase in fees to pay for a new stadium. How big of a sample is required to ensure the $EBP$ is smaller than $5 \%$ with $95 \%$ confidence?
