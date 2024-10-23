@@ -1,0 +1,67 @@
+---
+title: "Day24_Notes : Difference in means"
+output:
+  html_document:
+    css: ./style.css
+    toc: yes
+    toc_float: yes
+    theme: cosmo
+  pdf_document:
+    toc: yes
+editor_options:
+  chunk_output_type: console
+---
+  
+```{r global_options, include = FALSE}
+library(knitr)
+library(tidyverse)
+library(openintro)
+knitr::opts_chunk$set(eval = TRUE, results = TRUE)
+```
+
+---
+  
+## Today's Agenda
+
+- Review
+- Two Means
+
+---
+
+1. Pew Research asked a random sample of $1000$ American adults whether they supported the increased usage of coal to produce energy. Their sample showed that $46 \%$ of support increased coal usage. Set up hypotheses to evaluate whether a majority of American adults support or oppose the increased usage of coal.
+
+$H_0:$ 
+
+$H_A:$ 
+
+```{r}
+
+```
+
+2. You are given the following hypotheses:
+
+$H_0: \mu = 60$
+
+$H_A: \mu \neq 60$
+
+We know that the population standard deviation is $8$ and the sample size is $20$. For what sample mean(s) would the $p$-value be equal to $0.05$? 
+
+3. You are given the following hypotheses:
+
+$H_0: \mu = 60$
+
+$H_A: \mu \neq 60$
+
+We know that the sample standard deviation is $8$ and the sample size is $20$. For what sample mean(s) would the $p$-value be equal to $0.05$? 
+
+---
+
+## Difference of means in groups
+
+4. A scientific experiment measured change in blood pressure due to a medication in a control and treatment group. In their measurements negative data indicates a decrease in blood pressure. The control group had an average decrease of $-1.4$ and the treatment group had an average decrease of $-4$. With $9$ people in each group and sample standard deviations $5.2$ and $2.4$ in the control and treatment respectively, does this data provide statistically significant evidence of the effectiveness of the medication?
+
+### Difference of means SE
+
+For difference of means we use:
+
+$$SE = \sqrt{\frac{(\sigma_1)^2}{n_1} + \frac{(\sigma_2)^2}{n_2}}$$
