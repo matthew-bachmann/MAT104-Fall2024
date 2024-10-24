@@ -1,0 +1,59 @@
+---
+title: "Day25_Notes : Difference in means and proportions"
+output:
+  html_document:
+    css: ./style.css
+    toc: yes
+    toc_float: yes
+    theme: cosmo
+  pdf_document:
+    toc: yes
+editor_options:
+  chunk_output_type: console
+---
+  
+```{r global_options, include = FALSE}
+library(knitr)
+library(tidyverse)
+library(openintro)
+knitr::opts_chunk$set(eval = TRUE, results = TRUE)
+```
+
+---
+  
+## Today's Agenda
+
+- Two Means
+- Two Proportions
+
+---
+
+## Difference of means
+
+$$\bar{X_1} - \bar{X_2} \sim N \left( \mu_1-\mu_2, \sqrt{\frac{(\sigma_1)^2}{n_1} + \frac{(\sigma_2)^2}{n_2}} \right) $$
+
+When the population standard deviation is unknown for both groups, we use the sample standard deviation and the $t$-distribution with degrees of freedom equal to the smaller of $n_1-1$ and $n_2-1$.
+
+1. A scientific experiment measured change in blood pressure due to a medication in a control and treatment group. In their measurements negative data indicates a decrease in blood pressure. The control group had an average decrease of $-1.4$ and the treatment group had an average decrease of $-4$. With $9$ people in each group and sample standard deviations $5.2$ and $2.4$ in the control and treatment respectively, does this data provide statistically significant evidence of the effectiveness of the medication?
+
+$H_0: \mu_T = \mu_C$ or $\mu_T - \mu_C = 0$
+
+$H_A: \mu_T < \mu_C$ or $\mu_T-\mu_C <0$
+
+
+2. It is thought that middle school age boys and girls spend an equal time on average watching tv. A study is done for $25$ randomly selected children. The study had $16$ boys and $9$ girls. The $16$ boys watched tv for an average of $3.22$ hours per day with a sample standard deviation of $1$. The $9$ girls watched an average of two hours of television per day with a sample standard deviation of $.866$. Does the study suggest a statistically significant difference in the two population means using a significance level of $.05$
+?
+
+
+$$\hat{p_1} - \hat{p_1} \sim N \left( p_1- p_2, \sqrt{ \frac{p_1(1-p_1)}{n_1} + \frac{p_2(1-p_2)}{n_2}} \right) $$
+
+3. A survey asked $827$ randomly sampled registered voters in California “Do you support? Or do you oppose? Drilling for oil and natural gas off the Coast of California? Or do you not know enough to say?” Below is the distribution of responses, separated based on whether or not the respondent graduated from college. Calculate a $95 \%$ confidence interval for the difference between the proportion of college grads and non-college grads that don't have an opinion on the matter.
+
+| | College Grad | Not College Grad |
+|:--:|:--:|:--:|
+|Support | $154$ | $132$ | 
+|Oppose | $180$ | $126$ |
+|Don't know | $104$ | $131$ |
+|Total | $438$ | $389$ |
+
+4. According to a report on sleep deprivation by the Centers for Disease Control and Prevention, the proportion of California residents who reported insufficient rest or sleep during each of the preceding $30$ days is $8.0 \%$, while this proportion is $8.8 \%$ for Oregon residents. These data are based on simple random samples of $11,545$ California and $4,691$ Oregon residents. Calculate a $95 \%$ confidence interval for the difference between the proportions of Californians and Oregonians who are sleep deprived and interpret it in context of the data.
