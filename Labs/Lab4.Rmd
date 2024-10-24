@@ -216,7 +216,7 @@ $H_A:$
 
 ```
 
-9. Suppose we do a random sample of $20$ values from a population that is normally distributed with standard deviation $6$. We want to perform a hypothesis test using a significance level $\alpha=.1$. If we use the following hypotheses:
+9. Suppose we do a random sample of $20$ values from a population that is normally distributed with population standard deviation $6$. We want to perform a hypothesis test using a significance level $\alpha=.1$. If we use the following hypotheses:
  
 $H_0: \mu = 78$ 
 
