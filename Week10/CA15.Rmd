@@ -1,0 +1,131 @@
+---
+title: "CA 15 : Paired data + Practice"
+output:
+  html_document:
+    css: ./style.css
+    toc: yes
+    toc_float: yes
+    theme: cosmo
+  pdf_document:
+    toc: yes
+editor_options:
+  chunk_output_type: console
+---
+
+```{r global_options, include = FALSE}
+library(knitr)
+library(tidyverse)
+library(openintro)
+knitr::opts_chunk$set(eval = TRUE, results = TRUE)
+```
+
+------------------------------------------------------------------------
+
+## Today's Agenda
+
+-   Paired
+-   Practice
+
+------------------------------------------------------------------------
+
+## Paired
+
+------------------------------------------------------------------------
+
+#### Example: A study is done where $35$ overweight individuals are selected for a new nutrition program for weight loss. The study tracks the individuals weight at the beginning of the study and records their weight again $90$ days later. Below is a table for their weight loss:
+
+|  before  |  after   | difference |
+|:--------:|:--------:|:----------:|
+|  206.6   |  215.3   |    -8.7    |
+|  211.5   |  213.3   |    -1.8    |
+|  238.4   |  204.1   |    34.3    |
+|  216.1   |  200.4   |    15.7    |
+| $\vdots$ | $\vdots$ |  $\vdots$  |
+|  228.2   |  218.8   |    9.4     |
+
+#### From this table we find that the average weight loss is $8.9$ lbs with a standard deviation of the differences is $20.49009$. Set up a hypothesis test to determine whether, on average, the difference is real or simply due to randomness.
+
+$H_0:$
+
+$H_A:$
+
+```{r}
+
+```
+
+
+#### Example: A local Davidson resident wants to test if the difference in price for 15 staple groceries is significant between Harris Teeter and Food Lion. After going to the stores they collect the below data for 15 items. At a significance level of $.10$ conduct a hypothesis test to determine if the difference is significant.:
+
+
+| $n_{diff}$ | $\bar{x}_{diff}$ | $s_{diff}$ |
+| :--: | :--: | :--: |
+| 15 | 1.15 | 5.90 |
+
+
+
+1.  Some paired data has the sample statistics listed below. Use the sample statistics to determine if there is a true difference between the groups.
+
+
+| $n_{diff}$ | $\bar{x}_{diff}$ | $s_{diff}$ |
+| :--: | :--: | :--: |
+| 68 | 3.58 | 13.42 |
+
+
+$H_0:$
+
+$H_A:$
+
+```{r}
+
+```
+
+
+
+2.  Some paired data has the sample statistics listed below. Use the sample statistics to determine if there is a true difference between the groups.
+
+
+| $n_{diff}$ | $\bar{x}_{diff}$ | $s_{diff}$ |
+| :--: | :--: | :--: |
+| 12 | 4.2 | 9.1 |
+
+
+
+$H_0:$
+
+$H_A:$
+
+```{r}
+
+```
+
+3. (This problem is a repeat from before, try to redo it using a t or z - table instead of using R) A child is seeing how long they can hold their breathe under water. The child thinks they can hold their breathe for $150$ seconds on average. The child's dad thinks it less than that. He samples his daughter holding her breathe eight times and the results are $144$, $152$, $138$, $144$, $136$, $162$, $158$, and $142$. From the perspective of the dad, perform a hypothesis test using a $5 \%$ level of significance. Does the data provide sufficient evidence to reject the null hypothesis?
+
+$H_0:$
+
+$H_A:$
+
+```{r}
+
+```
+
+4.  Pew Research asked a random sample of $1000$ American adults whether they supported the increased usage of coal to produce energy. Their sample showed that $46 \%$ of support increased coal usage. Set up hypotheses to evaluate whether a majority of American adults support or oppose the increased usage of coal.
+
+$H_0:$
+
+$H_A:$
+
+```{r}
+
+```
+
+4. According to a report on sleep deprivation by the Centers for Disease Control and Prevention, the proportion of California residents who reported insufficient rest or sleep during each of the preceding $30$ days is $8.0 \%$, while this proportion is $8.8 \%$ for Oregon residents. These data are based on simple random samples of $11,545$ California and $4,691$ Oregon residents. Make a hypothesis test to determine if there is a real difference between the groups.
+
+$H_0:$
+
+$H_A:$
+
+```{r}
+
+```
+
+5. According to a report on sleep deprivation by the Centers for Disease Control and Prevention, the proportion of California residents who reported insufficient rest or sleep during each of the preceding $30$ days is $8.0 \%$, while this proportion is $8.8 \%$ for Oregon residents. These data are based on simple random samples of $11,545$ California and $4,691$ Oregon residents. Calculate a $95 \%$ confidence interval for the difference between the proportions of Californians and Oregonians who are sleep deprived and interpret it in context of the data. (Pay attention to how this compares to the hypothesis test approach)
