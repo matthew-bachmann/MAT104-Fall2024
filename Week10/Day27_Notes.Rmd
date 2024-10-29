@@ -1,0 +1,107 @@
+---
+title: "Day27 - Notes"
+output:
+  html_document:
+    css: ./style.css
+    toc: yes
+    toc_float: yes
+    theme: cosmo
+  pdf_document:
+    toc: yes
+editor_options:
+  chunk_output_type: console
+---
+
+```{r global_options, include = FALSE}
+library(knitr)
+library(tidyverse)
+library(openintro)
+knitr::opts_chunk$set(eval = TRUE, results = TRUE)
+```
+
+------------------------------------------------------------------------
+
+## Today's Agenda
+
+-   Power
+-   Example
+
+------------------------------------------------------------------------
+
+## Decision Errors
+
+
+| |$H_0$ is True | $H_0$ is False |
+|:--|:--|:--|
+|Do not reject $H_0$ | Correct conclusion | Type II error
+|Reject $H_0$ | Type I error | Correct conclusion |
+
+------------------------------------------------------------------------
+
+#### **Example:** The researchers would like to run the clinical trial on patients with systolic blood pressures between $140$ and $180$ mmHg. Suppose previously published studies suggest that the standard deviation of the patients’ blood pressures will be about $12$ mmHg and the distribution of patient blood pressures will be approximately normal. Out of $150$ patients, $75$ are given a new medication meant to reduce blood pressure and the other $75$ are given the standard treatment. Set up hypotheses to determine if the medicine reduces the average blood pressure of the group taking the new medication. 
+
+$H_0: \mu_{new} - \mu_{old} \geq 0$
+
+$H_A: \mu_{new} - \mu_{old} < 0$
+
+1. Is this paired data?
+
+
+
++ If we reject the null hypothesis we would say "our data shows statistically significant evidence the the medication lower blood pressure in patients"
++ However, this does not mean the medication is worth it
++ Potentially there will be negative side effects to the new medicine or be incredibly expensive
++ Researchers determine that the medicine will only be *worth it* if it reduces blood pressure by at least $3$ mmHg
+
+So, we want to know, "how likely are we to notice an effect of a $3$ mmHg reduction?".
+
+2. If there truly is a $3$ mmHg reduction but we fail to reject the null hypothesis, what type of an error is this?
+
++ Imagine now a world where there really is a $3$ mmHg decrease in blood pressure, draw the sampling distribution in this reality.
+
+Draw a picture with two potential sampling distributions: the sampling distribution where we assume the null hypothesis is true and the the sampling distribution where we assume the effect of $3$ mmHg reduction is true. Label the area that represents the probability of correctly rejecting the null hypothesis assuming it is wrong. (Assume a $5 \%$ significance level)
+
+<center>
+<img src="./power1.JPG" width="450"/>
+</center>
+
+3. Find the power of the test at detecting a $3$ mmHg reduction in blood pressure. (This is one minus the shaded area above)
+
+```{r}
+
+```
+
+3. Suppose we do a random sample of $15$ values from a normally distributed population where $\sigma =6$ and $\mu$ is unknown. We want to perform a hypothesis test using a significance level $\alpha = .05$ where the hypotheses are given below. What is the power of the test at detecting a mean of $54$? Include a picture with two potential sampling distributions: the sampling distribution where we assume the null hypothesis is true and the the sampling distribution where we assume the true mean is $54$ and shade the region representing the power. 
+
+$H_0: \mu = 50$
+
+$H_A: \mu > 50$
+
+
+```{r}
+
+```
+
+
+---
+
+4. Suppose we do a random sample of $42$ values from a normally distributed population where $\sigma =16$ and $\mu$ is unknown. We want to perform a hypothesis test using a significance level $\alpha = .10$ where the hypotheses are given below. What is the power of the test at detecting a mean of $275$? Include a picture with two potential sampling distributions: the sampling distribution where we assume the null hypothesis is true and the the sampling distribution where we assume the true mean is $275$ and shade the region representing the power. 
+
+$H_0: \mu = 300$
+
+$H_A: \mu < 300$
+
+
+```{r}
+
+```
+
+5. Suppose that we randomly sample scores on a test from two groups; $315$ observations from group $A$ and $225$ observations from group $B$. Group $A$ has population standard deviation $32$ and group $B$ has population standard deviation $25$. We want to perform a hypothesis test using a significance level $\alpha = .10$ where the hypotheses are given below. What is the power of the test at detecting a group $A$ having an average of $20$ higher than group $B$ ? Include a picture with two potential sampling distributions: the sampling distribution where we assume the null hypothesis is true and the the sampling distribution where we assume the group $A$ scores $20$ points higher and shade the region representing the power.
+
+$H_0: \mu_A - \mu_B \leq 0$
+
+$H_A: \mu_A - \mu_B > 0$
+
+```{r}
+
+```
