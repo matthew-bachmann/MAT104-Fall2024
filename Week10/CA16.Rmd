@@ -1,0 +1,65 @@
+---
+title: "Class Activity 16 - Lots of Practice"
+output:
+  html_document:
+    css: ./style.css
+    toc: yes
+    toc_float: yes
+    theme: cosmo
+  pdf_document:
+    toc: yes
+editor_options:
+  chunk_output_type: console
+---
+
+A popcorn company uses two machines to add butter to their microwave popcorn bags. The  machine making the "movie theater style" bags is supposed to add $5$g of butter and has a standard deviation of $1.2$g. The machine making the "lightly buttered" option is supposed to add $4$g of butter with a standard deviation of $1$g. A quality control employee at the company wants to test if the machines are calibrated correctly. They decide to do a simple random sample of $20$ bags from each machine and obtain sample means $4.7$ and $4.3$ from the movie theater style and lightly buttered style respectively. So, they set up a hyothesis test:
+
+$H_0 : \mu_1 - \mu_2 = 1$
+
+$H_A : \mu_1 - \mu_2 \neq 1$
+
+1. Based on the hypotheses, is $\mu_1$ meant to represent the "movie theater style" or the "lightly buttered" style option?
+
+2. Will your model for the sampling distribution be the normal distribution or the $t$-distribution and why?
+
+3. Draw a picture of the sampling distribution. (you don't need to include the picture here, just make sure to draw one)
+
+4. Test if the data collected provides statistically significant evidence that the amount of butter in the two styles is different than $1$g at a $10 \%$ significance level.
+
+5. Now suppose that $20$ bags from each group are sampled but we have not yet computed what their sample means are. Fill in the blank for the following statements using a significance level of $\alpha=.1$: 
+
+6. To compare their results, the quality control agent now wants to form a $90 \%$ confidence interval for the true difference. Find this interval; does this interval support the claim that the true difference is $1$g? Why or why not?
+
++ "If the mean amount of butter in the movie theater style sample is less than _____ grams more than the lightly buttered sample, the data is statistically significant evidence that the difference is different than 1g." (this is finding the cut-off values or critical values)
+  
++ "If the mean amount of butter in the movie theater style sample is more than _____ grams more than the lightly buttered sample, the data is statistically significant evidence that the difference is different than 1g." (this is finding the cut-off values or critical values)
+    
+
+Sleep deprived transportation workers. The National Sleep Foundation conducted a survey on the sleep habits of randomly sampled transportation workers and a control sample of non-transportation workers. The results of the survey are shown below.
+
+|  hrs of sleep | Control | Pilots | Truck Drivers | 
+| :--: | :--: | :--: |
+| <6 | 35 | 19 | 35 |
+| 6-8 | 193 | 132 | 117 |
+| >8 | 64 | 51 | 51 | 
+| Total | 292 | 202 | 203 |
+
+7. If we want to test for statistically significant evidence of a difference between the proportions of truck drivers and non-transportation workers who get less than 6 hours of sleep per day what should our hypotheses be.
+
+$H_0 : $
+
+$H_A : $
+
+8. Will your model for the sampling distribution be the normal distribution or the $t$-distribution and why?
+
+9. Draw a picture of the sampling distribution. (you don't need to include the picture here, just make sure to draw one)
+
+11. At the $5 \%$ significance level, is there statistically significant evidence of a difference?
+
+12. Compare this to a $95\%$ confidence interval for the difference in proportions (we have never done an example quite like this one before). 
+
+
+
+
+
+
