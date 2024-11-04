@@ -1,0 +1,53 @@
+---
+title: "Class Activity 17 - More Practice and Power"
+output:
+  html_document:
+    css: ./style.css
+    toc: yes
+    toc_float: yes
+    theme: cosmo
+  pdf_document:
+    toc: yes
+editor_options:
+  chunk_output_type: console
+---
+
+This first part is copied from Class Activity 16, finish whatever you didn't get to:
+
+Sleep deprived transportation workers. The National Sleep Foundation conducted a survey on the sleep habits of randomly sampled transportation workers and a control sample of non-transportation workers. The results of the survey are shown below.
+
+|  hrs of sleep | Control | Pilots | Truck Drivers | 
+| :--: | :--: | :--: |
+| <6 | 35 | 19 | 35 |
+| 6-8 | 193 | 132 | 117 |
+| >8 | 64 | 51 | 51 | 
+| Total | 292 | 202 | 203 |
+
+7. If we want to test for statistically significant evidence of a difference between the proportions of truck drivers and non-transportation workers who get less than 6 hours of sleep per day what should our hypotheses be.
+
+$H_0 : $
+
+$H_A : $
+
+8. Will your model for the sampling distribution be the normal distribution or the $t$-distribution and why?
+
+9. Draw a picture of the sampling distribution. (you don't need to include the picture here, just make sure to draw one)
+
+11. At the $5 \%$ significance level, is there statistically significant evidence of a difference?
+
+12. Compare this to a $95\%$ confidence interval for the difference in proportions (we have never done an example quite like this one before). 
+
+
+---
+
+## Class Acticity 17 starts here
+
+
+1. The local electric company says that customers pay less than $\$200$ per month on average. A local reporter is suspicious of these claims and thinks that customers are spending more than $\$ 200$ per month. A random sample of $35$ customers bills during a given month is taken with a mean of $220$ and a standard deviation of $45$. Create a hypothesis test from the perspective of the reporter to test the claims of the company under a $5 \%$ significance level.
+
+2. Compute the power of the hypothesis test at detecting a mean of $\$220$. (Make sure to draw a picture)
+
+3. A population of people has incomes with a standard deviation of $\sigma = \$9000$. A random sample of $25$ people had a mean income of $\$54,800$. Perform a hypothesis test using a significance level of $.05$ to see if this data provides statistically significant evidence that the mean salary is different than $\$60,000$.
+
+4. What is the power of the test at detecting a mean income of $ \$ 57000$?
+
