@@ -1,0 +1,70 @@
+---
+title: "Class Activity 18 - Review for Review"
+output:
+  html_document:
+    css: ./style.css
+    toc: yes
+    toc_float: yes
+    theme: cosmo
+  pdf_document:
+    toc: yes
+editor_options:
+  chunk_output_type: console
+---
+
+Topics to know:
+
++ calculating confidence intervals for a difference in proportions (don't use a pooled proportion)
++ doing a hypothesis test for a difference in proportions (null hypothesis is usually that the proportions are equal so use a pooled proportion)
++ calculating confidence intervals for a difference in means 
++ doing a hypothesis test for a difference in means (null hypothesis is usually that the means are equal)
++ Understand what a $p$-value is and how to use it to form conclusions
++ Understand decision errors: type I and type II errors
++ know how to identify paired data
++ Be able to perform hypothesis tests using both $z$-tests and $t$-tests (proportions are always a $z$-test, means are a $z$-test when you know the population standard deviation and a $t$-test when you only know the sample standard deviation)
++ Understand how to compute power and how to interpret power and decision errors in graphs
+
+
+
+## Class Acticity 17 is copied here for your convenience
+
+
+1. The local electric company says that customers pay less than $\$200$ per month on average. A local reporter is suspicious of these claims and thinks that customers are spending more than $\$ 200$ per month. A random sample of $35$ customers bills during a given month is taken with a mean of $220$ and a standard deviation of $45$. Create a hypothesis test from the perspective of the reporter to test the claims of the company under a $5 \%$ significance level.
+
+2. Compute the power of the hypothesis test at detecting a mean of $\$220$. (Make sure to draw a picture)
+
+3. A population of people has incomes with a standard deviation of $\sigma = \$9000$. A random sample of $25$ people had a mean income of $\$54,800$. Perform a hypothesis test using a significance level of $.05$ to see if this data provides statistically significant evidence that the mean salary is different than $\$60,000$.
+
+4. What is the power of the test at detecting a mean income of $ \$ 57000$?
+
+---
+
+5. Given two proportions $\hat{p}_1 = .25$ and $\hat{p}_2=.30$ from sample size $n_1 = 35$ and $n_2=55$. Calculate a $90 \%$ confidence interval.
+
+6. Given two proportions $\hat{p}_1 = .25$ and $\hat{p}_2=.30$ from sample size $n_1 = 35$ and $n_2=55$. Perfrom a hypothesis test to see if the data provides evidence that there is a difference int the two proportions.
+
+7. True/False: A large $t$-score corresponds to a large $p$-value
+
+8. True/False: In a one tailed test we compute a $t$-score of $1.7$. With a $10 \%$ significance level we fail to reject the null hypothesis.
+
+9. Describe a Type I error in the context of problem one
+
+10. 9. Describe a Type II error in the context of problem one
+
+11. In a random sample of $1000$ students,  $\hat{p} = 0.8$ (or $80\%$) were in favor of longer hours at the school library. Find the standard error of $\hat{p}$.
+
+12. When should you use a pooled proportion?
+
+13. Null and alternate hypothese are statements about:
++ population parameters
++ sample parameters
++ sample statistics
++ it depends on the test
+
+14. Consider a random sample of $100$ females and $100$ males. Suppose $15$ of the females are left-handed and $12$ of the males are left-handed. What is the estimated difference between population proportions of females and males who are left-handed? Select the choice with the correct
+notation and numerical value. 
+
++ $p_1 - p_2 = 3$
++ $p_1 - p_2 = .03$
++ $\hat{p}_1 - \hat{p}_2 = 3$
++ $\hat{p}_1 - \hat{p}_2 = .03$
