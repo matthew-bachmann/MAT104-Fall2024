@@ -26,7 +26,7 @@ For the following section we will use data from: "Learning Statistics with R" by
 
 ```{r}
 load("~/MAT104-Fall2024/Week12/parenthood.Rdata")
-load("~/MAT104-Fall2024/Week12pearson_correlations.RData")
+load("~/MAT104-Fall2024/Week12/pearson_correlations.RData")
 load("~/MAT104-Fall2024/Week12/effort.Rdata")
 ```
 
