@@ -43,7 +43,7 @@ $H_A: Y_i = b_1 X_i + b_0 + \epsilon$: the alternate model is better at predicti
 
 
 ```{r}
-load("~/Documents/GitHub/MAT104-Fall24/Week12/parenthood.Rdata")
+load("~/MAT104-Fall2024/Week12/parenthood.Rdata")
 dansleep <- parenthood$dan.sleep
 babysleep <- parenthood$baby.sleep
 grump <- parenthood$dan.grump
