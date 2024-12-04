@@ -1,0 +1,69 @@
+---
+title: "CA 24 : Bayes Theorem"
+output:
+  html_document:
+    css: ./style.css
+    toc: yes
+    toc_float: yes
+    theme: cosmo
+  pdf_document:
+    toc: yes
+editor_options:
+  chunk_output_type: console
+---
+  
+```{r global_options, include = FALSE}
+library(knitr)
+library(tidyverse)
+library(openintro)
+knitr::opts_chunk$set(eval = TRUE, results = TRUE)
+```
+
+---
+  
+## Today's Agenda
+- Law of Total Probability
+- Bayes Theorem
+
+
+---
+
+## Conditional Probability
+
+Recall the definition of conditional probability
+
+$$ P(A|B) = \frac{P(A \text{ and } B)}{P(B)}$$
+
+From which we can easily rearrange to get:
+
+$$P(A|B)\cdot P(B) = P(A \text{ and } B)$$
+
+and
+
+$$P(A|B^c)\cdot P(B^c) = P(A \text{ and } B^c)$$
+
+## Law of Total Probability
+
+$$ P(A) = P(A \text{ and } B) + P(A \text{ and } B^c) = P(A|B)\cdot P(B) + P(A|B^c)\cdot P(B^c)$$
+
+
+
+## Bayes Theorem
+
+
+$$ P(A |B ) = \frac{ P(B|A) \cdot P(A)}{P(A)}  = \frac{ P(B|A) \cdot P(A)}{P(B|A) \cdot P(A) + P(B|A^c) \cdot P(A^c)}$$
+
+
+
+1. Lupus is a medical phenomenon where antibiotics that are supposed to attack foreign cells to prevent infections instead see plasma proteins as foreign bodies, leading to a high risk of blood clotting. It is believed that 2% of the popularion suffer form this disease. The test is 98% accurate if a person actually has the disease. The test is 74% accurate if a person does not have the disease. There is a line from the TV show “House” where after a person tests positive for lupus the doctor says: “It’s never lupus”. Find the probability that someone has lupus given that they tested positive for lupus.
+
+
+
+2. The accuracy of the lie detector polygraph test is often questioned. Several reports say that a polygraph is about $95 \%$ accurate at determining if a person is telling a truth or a lie. Let's assume these reports are correct. Let's also assume that people are generally honest, so there is only a $1/1000$ chance they are lying. A randomly schosen person takes the test and is determined to be lying, what is the probability that they actually lied?
+
+
+
+3. Suppose $0.1 \%$ of the population have a new covid variant and there is a test that is $96 \%$ accurate. Suppose you test positive, what is the probability you have it?
+
+
+
